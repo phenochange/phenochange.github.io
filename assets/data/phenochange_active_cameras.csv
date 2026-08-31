@@ -1,0 +1,77 @@
+Site,Country,Plot ID,CameraID,CameraName,Latitude,Longitude,Elevation_metadata_m,Field of view,Camera model
+Bicuar National Park,Angola,P2,ABG021,ABG021,-15.1141250040382,14.8137239646166,1241.464966,Ground Layer + Canopy,Bushnell 119932M
+Bicuar National Park,Angola,P2,ABG022,ABG022,-15.1137769874185,14.8134379740804,1241.22851599999,Ground Layer + Canopy,Bushnell 119932M
+Bicuar National Park,Angola,P2,ABG023,ABG023,-15.1136139594018,14.813881041482,1244.34789999999,Ground Layer + Canopy,Bushnell 119932M
+Bicuar National Park,Angola,P10,ABG101,ABG101,-15.0988079980015,14.8382840305566,1235.30981399999,Ground Layer + Canopy,Bushnell 119932M
+Bicuar National Park,Angola,P10,ABG102,ABG102,-15.0986650027334,14.8379110358655,1233.08435099999,Ground Layer + Canopy,Bushnell 119932M
+Bicuar National Park,Angola,P10,ABG103,ABG103,-15.0988540146499,14.8387219849973,1237.72448699999,Ground Layer + Canopy,Bushnell 119932M
+Bicuar National Park,Angola,P12,ABG121,ABG121,-15.116883,14.906808,1235,Ground Layer + Canopy,Bushnell 119932M
+Bicuar National Park,Angola,P12,ABG122,ABG122,-15.116584,14.906541,1236,Ground Layer + Canopy,Bushnell 119932M
+Bicuar National Park,Angola,P12,ABG123,ABG123,-15.116338,14.906934,1236,Ground Layer + Canopy,Bushnell 119932M
+Bicuar National Park,Angola,P9,ABG901,ABG901,-15.1964699942618,14.8137969709932,1228.037231,Ground Layer + Canopy,Bushnell 119932M
+Bicuar National Park,Angola,P9,ABG902,ABG902,-15.1967800408601,14.8136730026453,1236.00537099999,Ground Layer + Canopy,Bushnell 119932M
+Bicuar National Park,Angola,P9,ABG903,ABG903B,-15.19664,14.81426,1231,Ground Layer + Canopy,Bushnell 119736
+Fazenda Água Limpa (UnB),Brazil,PLOT #11,FAL_Tower,FAL_TOWER,-15.953865,-47.916401,1133,Ground Layer + Canopy,119949C
+Fazenda Água Limpa (UnB),Brazil,FAL-01,FAL111,FAL111,-15.976959,-47.93651,1196,Ground Layer + Canopy,119949C
+Fazenda Água Limpa (UnB),Brazil,FAL-01,FAL122,FAL122,-15.9776,-47.936242,1197,Ground Layer + Canopy,119949C
+Fazenda Água Limpa (UnB),Brazil,FAL-01,FAL133,FAL133,-15.977525,-47.936008,1197,Ground Layer + Canopy,119949C
+Fazenda Água Limpa (UnB),Brazil,FAL-02,FAL211,FAL211,-15.975102,-47.92864,1201,Ground Layer + Canopy,119949C
+Fazenda Água Limpa (UnB),Brazil,FAL-02,FAL222,FAL222,-15.975775,-47.929428,1204,Ground Layer + Canopy,119949C
+Fazenda Água Limpa (UnB),Brazil,FAL-02,FAL233,FAL233,-15.976082,-47.928647,1203,Ground Layer + Canopy,119949C
+Fazenda Água Limpa (UnB),Brazil,FAL-03,FAL311,FAL311,-15.953119,-47.924901,1121,Canopy,119932M
+Fazenda Água Limpa (UnB),Brazil,FAL-03,FAL312,FAL312,-15.953119,-47.924901,1121,Ground Layer,119932M
+Fazenda Água Limpa (UnB),Brazil,FAL-03,FAL321,FAL321,-15.952963,-47.925674,1121,Canopy,119932M
+Fazenda Água Limpa (UnB),Brazil,FAL-03,FAL322,FAL322,-15.952963,-47.925674,1121,Ground Layer,119932M
+Fazenda Água Limpa (UnB),Brazil,FAL-03,FAL331,FAL331,-15.952366,-47.925754,1121,Canopy,119932M
+Fazenda Água Limpa (UnB),Brazil,FAL-03,FAL332,FAL332,-15.952366,-47.925754,1121,Ground Layer,119932M
+Kilwa District,Tanzania,F7,KF071B,KF071B,-8.99201,39.075,,Ground Layer + Canopy,119932M
+Kilwa District,Tanzania,F7,KF072B,KF072B,-8.9915,39.07571,,Ground Layer + Canopy,119932M
+Kilwa District,Tanzania,F7,KF072C,KF072C,-8.99173,39.07567,,Canopy,119932M
+Kilwa District,Tanzania,F7,KF073C,KF073C,-8.99142,39.07472,,Canopy,119932M
+Kilwa District,Tanzania,F7,KF073G,KF073G,-8.99145,39.07497,,Ground Layer ,119932M
+Kilwa District,Tanzania,F15,KF151C,KF151C,-9.41903,39.31816,,Canopy,119932M
+Kilwa District,Tanzania,F15,KF151G,KF151G,-9.41903,39.31816,,Ground Layer ,119932M
+Kilwa District,Tanzania,F15,KF152G,KF152G,-9.41941,39.31791,,Ground Layer ,119932M
+Mikembo Nature Reserve,Democratic Republic of Congo,5,MF051C,MF051C,-11.483933,27.67115,1231,Canopy,Bushnell
+Mikembo Nature Reserve,Democratic Republic of Congo,5,MF051G,MF051G,-11.483933,27.67115,1231,Ground Layer,Bushnell
+Mikembo Nature Reserve,Democratic Republic of Congo,15,MF151C,MF151C,-11.48365,27.672217,1224,Canopy,Bushnell
+Mikembo Nature Reserve,Democratic Republic of Congo,15,MF151G,MF151G,-11.483717,27.672067,1220,Ground Layer,Bushnell
+Mikembo Nature Reserve,Democratic Republic of Congo,29,MF291C,MF291C,-11.483633,27.673767,1205,Canopy,Bushnell
+Mikembo Nature Reserve,Democratic Republic of Congo,29,MF291G,MF291G,-11.483633,27.673767,1205,Ground Layer,Bushnell
+Ongava Research Centre,Namibia,P1,P1C1,P1C1Bushnell,-19.34319,15.90618,1144,Ground Layer + Canopy,Bushnell
+Ongava Research Centre,Namibia,P1,P1C2,P1C2Bushnell,-19.34341,15.9067,1148,Ground Layer + Canopy,Bushnell
+Ongava Research Centre,Namibia,P1,P1C3,P1C3Bushnell,-19.34369,15.90627,1150,Ground Layer + Canopy,Bushnell
+Ongava Research Centre,Namibia,W3,W3C1,W3C1Bushnell,-19.36542,15.88519,1171,Ground Layer + Canopy,Bushnell
+Ongava Research Centre,Namibia,W3,W3C2,W3C2Bushnell,-19.36581,15.88463,1173,Ground Layer + Canopy,Bushnell
+Ongava Research Centre,Namibia,W3,W3C3,W3C3Bushnell,-19.36614,15.88467,1159,Ground Layer + Canopy,Bushnell
+Ongava Research Centre,Namibia,W4,W4C1,W4C1Bushnell,-19.39424,15.84374,1191,Ground Layer + Canopy,Bushnell
+Ongava Research Centre,Namibia,W4,W4C2,W4C2Bushnell,-19.3947,15.84438,1190,Ground Layer + Canopy,Bushnell
+Ongava Research Centre,Namibia,W4,W4C3,W4C3Bushnell,-19.3948,15.84398,1193,Ground Layer + Canopy,Bushnell
+Ongava Research Centre,Namibia,W6,W6C1,W6C1Bushnell,-19.34748,15.78164,1221,Ground Layer + Canopy,Bushnell
+Ongava Research Centre,Namibia,W6,W6C2,W6C2Bushnell,-19.34686,15.78251,1225,Ground Layer + Canopy,Bushnell
+Ongava Research Centre,Namibia,W6,W6C3,W6C3Bushnell,-19.34713,15.78173,1222,Ground Layer + Canopy,Bushnell
+Peruaçu National Park,Brazil,PNP-03,PNP311,PNP311,-15.124369,-44.240786,726,Canopy,119932M
+Peruaçu National Park,Brazil,PNP-03,PNP312,PNP312,-15.124369,-44.240786,726,Ground Layer,119932M
+Peruaçu National Park,Brazil,PNP-03,PNP323,PNP323,-15.1243,-44.241725,720,Canopy,119949C
+Peruaçu National Park,Brazil,PNP-03,PNP324,PNP324,-15.1243,-44.241725,720,Ground Layer,119932M
+Peruaçu National Park,Brazil,PNP-03,PNP335,PNP335,-15.125181,-44.241714,713,Canopy,119932M
+Peruaçu National Park,Brazil,PNP-03,PNP346,PNP346,-15.125242,-44.240842,723,Ground Layer,119932M
+Embrapa Semi-Árido Experimental Station,Brazil,LEG-01,P1CAM2,P1CAM2,-9.047778,-40.319444,393,Ground Layer,119949C
+Embrapa Semi-Árido Experimental Station,Brazil,LEG-01,P1CAM3,P1CAM3,-9.047778,-40.319444,393,Canopy,119949C
+Embrapa Semi-Árido Experimental Station,Brazil,LEG-01,P2CAM4,P2CAM4,-9.0475,-40.319389,393,Ground Layer,119949C
+Embrapa Semi-Árido Experimental Station,Brazil,LEG-01,P2CAM5,P2CAM5,-9.0475,-40.319389,393,Canopy,119949C
+Embrapa Semi-Árido Experimental Station,Brazil,LEG-01,P3CAM6,P3CAM6,-9.046944,-40.319556,393,Ground Layer,119949C
+Embrapa Semi-Árido Experimental Station,Brazil,LEG-01,P3CAM7,P3CAM7,-9.046944,-40.319556,393,Canopy,119949C
+Embrapa Semi-Árido Experimental Station,Brazil,LEG-01,Tower,TOWER,-9.046542,-40.321278,420,Ground Layer + Canopy,119949C
+Itirapina Ecological Station,Brazil,ITP-01,ITP1_CAM1,ITP1_CAM1,-22.226389,-47.8825,723,Ground Layer + Canopy,119949C
+Itirapina Ecological Station,Brazil,ITP-01,ITP1_CAM2,ITP1_CAM2,-22.226944,-47.882444,723,Ground Layer + Canopy,119949C
+Itirapina Ecological Station,Brazil,ITP-01,ITP1_CAM3,ITP1_CAM3,-22.227517,-47.882408,726,Ground Layer + Canopy,119949C
+Itirapina Ecological Station,Brazil,ITP-02,ITP2_CAM1,ITP2_CAM1,-22.212947,-47.895897,737,Ground Layer + Canopy,119949C
+Itirapina Ecological Station,Brazil,ITP-02,ITP2_CAM2,ITP2_CAM2,-22.212883,-47.896678,740,Ground Layer + Canopy,119949C
+Itirapina Ecological Station,Brazil,ITP-02,ITP2_CAM3,ITP2_CAM3,-22.213786,-47.896428,736,Ground Layer + Canopy,119949C
+Serra das Almas Natural Reserve,Brazil,SDA-01,P1CAM1,P1CAM1,-5.146271,-40.928441,686,Canopy,119736
+Serra das Almas Natural Reserve,Brazil,SDA-01,P1CAM2,P1CAM2,-5.146271,-40.928441,686,Ground Layer,119736
+Serra das Almas Natural Reserve,Brazil,SDA-01,P2CAM1,P2CAM1,-5.14669,-40.928593,685,Canopy,119736
+Serra das Almas Natural Reserve,Brazil,SDA-01,P2CAM2,P2CAM2,-5.14669,-40.928593,685,Ground Layer,119736
+Serra das Almas Natural Reserve,Brazil,SDA-01,P3CAM1,P3CAM1,-5.146519,-40.928515,686,Canopy,119736
+Serra das Almas Natural Reserve,Brazil,SDA-01,P3CAM2,P3CAM2,-5.146519,-40.928515,686,Ground Layer,119736
