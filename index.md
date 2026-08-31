@@ -155,7 +155,7 @@ permalink: /
 
     <div class="funder-grid">
       <div class="funder-card">
-        <img src="{{ '/assets/images/logos/nerc.webp' | relative_url }}" alt="Natural Environment Research Council (NERC) logo">
+        <img src="{{ '/assets/images/logos/Natural_Environment_Research_Council_logo.svg.webp' | relative_url }}" alt="Natural Environment Research Council (NERC) logo">
         <p>NE/X002993/1 and SECO Project NE/T01279X/1</p>
       </div>
       <div class="funder-card">
