@@ -3,9 +3,9 @@ tagline: A network for monitoring the phenology of forests and savannas
 description: >-
   PhenoChange uses ground-based camera systems to monitor how the vegetative
   phenology of forests and savannas is shifting under global change.
-url: "https://kyledexter.github.io"
-baseurl: "/PhenoChange"
-repository: kyledexter/PhenoChange
+url: "https://phenochange.github.io"
+baseurl: ""
+repository: phenochange/phenochange.github.io
 lang: en-GB
 timezone: Europe/Rome
 markdown: kramdown

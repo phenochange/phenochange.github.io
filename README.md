@@ -2,13 +2,25 @@
 
 This repository contains the GitHub Pages website for **PhenoChange: A network for monitoring the phenology of forests and savannas**.
 
-The public site is hosted at:
+Public site:
 
-https://kyledexter.github.io/PhenoChange/
+https://phenochange.github.io/
+
+The site is hosted from the GitHub organisation repository:
+
+`phenochange/phenochange.github.io`
+
+Because this is an organisation/user Pages repository, the site is served from the domain root. Jekyll therefore uses `baseurl: ""`.
+
+## Current version
+
+**Version 5.1**
+
+Version 5.1 includes the interactive nine-site network map, active-camera information, sortable site metadata, WorldClim climate summaries, updated imagery, publications, protocols, people and partner institutions.
+
+See `docs/CHANGELOG.md` for release details and `docs/ROADMAP.md` for planned improvements.
 
 ## Repository structure
-
-The website is intentionally kept simple so that individual pages can be edited directly as Markdown files.
 
 Main pages in the repository root:
 
@@ -23,49 +35,82 @@ Main pages in the repository root:
 
 Supporting files:
 
-- `_config.yml` — Jekyll and site-wide configuration
+- `_config.yml` — Jekyll/site configuration
 - `_data/navigation.yml` — navigation menu
 - `_includes/header.html` — site header
 - `_includes/footer.html` — site footer and funding acknowledgement
-- `_layouts/default.html` — main site layout
-- `_layouts/page.html` — internal page layout
-- `assets/css/style.css` — visual styling
+- `_layouts/default.html` — main layout
+- `_layouts/page.html` — internal-page layout
+- `assets/css/style.css` — site-wide styling
 - `assets/js/site_table.js` — sortable site-metadata table
-- `assets/data/phenochange_site_metadata.csv` — site metadata displayed on the Data page
-- `assets/documents/` — downloadable documents and protocols
-- `assets/images/` — website images and logos
-- `docs/` — project documentation for maintainers
+- `assets/js/network_map.js` — interactive network map and camera diagram
+- `assets/data/phenochange_site_metadata.csv` — site-level metadata
+- `assets/data/phenochange_active_cameras.csv` — active camera-level metadata
+- `assets/documents/` — downloadable protocols/documents
+- `assets/images/` — photographs and logos
+- `docs/` — maintenance documentation
 
-## Editing the website
+The website intentionally keeps People, Partner Institutions and Publications directly in their Markdown pages. The older separate YAML data files for those pages are no longer used.
 
-Most content can be updated by editing the relevant `.md` file in the repository root.
+## Editing content
 
-For example:
+Most routine changes require editing only the relevant root-level Markdown file.
 
-- To change the About page, edit `about.md`.
-- To add or update a person, edit `people.md`.
-- To add or update a partner institution, edit `institutions.md`.
-- To add a publication, edit `publications.md`.
-- To change Data-page text, edit `data.md`.
-- To change the navigation menu, edit `_data/navigation.yml`.
-- To change colours, spacing or card layouts, edit `assets/css/style.css`.
-- To change footer text or funding acknowledgements, edit `_includes/footer.html`.
+Examples:
+- About text → `about.md`
+- People → `people.md`
+- Partner institutions → `institutions.md`
+- Publications → `publications.md`
+- Data-page text → `data.md`
+- Protocols → `protocols.md`
+- Navigation → `_data/navigation.yml`
+- Footer/funding → `_includes/footer.html`
+- Styling → `assets/css/style.css`
 
-## Site metadata
+## Data and map
 
-The site metadata displayed on the Data page are stored in:
+### Site metadata
+
+The Data-page table reads:
 
 `assets/data/phenochange_site_metadata.csv`
 
-The Data page loads this CSV using:
+through:
 
 `assets/js/site_table.js`
 
-When site metadata change, update the CSV rather than manually rewriting the table in `data.md`.
+Update the CSV rather than hard-coding table values in `data.md`.
 
-## Adding images
+The site coordinates represent mean latitude and longitude for cameras with `Status = ON`.
 
-Current image folders include:
+MAT and MAP currently use WorldClim v2.1 BIO1 and BIO12 (1970–2000, 2.5 arc-minute resolution).
+
+### Active cameras
+
+The interactive map reads:
+
+`assets/data/phenochange_active_cameras.csv`
+
+through:
+
+`assets/js/network_map.js`
+
+The camera CSV should contain only cameras with `Status = ON`.
+
+The map currently shows the nine core PhenoChange sites. Selecting a site displays a schematic radial diagram of its active cameras beneath the map.
+
+### Map sources
+
+The Data-page map uses:
+- NASA Blue Marble Next Generation as the global raster background;
+- Natural Earth country boundaries;
+- Leaflet for interaction.
+
+Keep the map attribution on the Data page when modifying the map.
+
+## Images
+
+Image folders include:
 
 - `assets/images/people/`
 - `assets/images/about/`
@@ -75,47 +120,38 @@ Current image folders include:
 - `assets/images/protocols/`
 - `assets/images/logos/`
 
-Recommended filename conventions:
+Recommended conventions:
+- lowercase filenames;
+- underscores instead of spaces;
+- avoid accented characters;
+- `.jpg` for photographs where practical;
+- `.png`/`.svg` for logos where appropriate.
 
-- use lowercase filenames;
-- avoid spaces and accented characters;
-- use underscores to separate words;
-- use `.jpg` for photographs where practical;
-- preserve `.png` or `.svg` for logos where transparency or vector graphics are useful.
-
-Example:
-
-`assets/images/people/kyle_dexter.jpg`
-
-When referencing internal assets in Markdown or HTML, use Jekyll's `relative_url` filter where possible so links work correctly under the `/PhenoChange/` GitHub Pages base path.
+Use Jekyll's `relative_url` filter for internal paths where possible.
 
 ## Adding a publication
 
-Add a new publication card near the top of `publications.md` so that the newest publication appears first.
+Add the new publication near the top of `publications.md`.
 
 Include:
-
-- title
-- complete author list
-- journal
-- year
-- link to the published article
+- exact title;
+- complete author list;
+- journal;
+- year;
+- article/DOI link.
 
 ## Adding a person
 
 Add the person directly to the appropriate section of `people.md`:
-
 - Coordinators
 - Site Leaders
 - PhenoChange Collaborators
 
-Use the existing person-card structure as a template.
+Place their portrait in `assets/images/people/`.
 
 ## Adding a partner institution
 
-Add the institution directly to `institutions.md` using the existing institution-card structure.
-
-Place its logo in `assets/images/logos/`.
+Add the institution directly to `institutions.md` using the existing card structure and place its logo in `assets/images/logos/`.
 
 ## Protocols
 
@@ -123,39 +159,27 @@ Downloadable protocols are stored in:
 
 `assets/documents/`
 
-The current field-camera protocol is:
+Current field-camera protocol:
 
 `assets/documents/PhenoChange_Phenocam_Protocol_v1.pdf`
 
 ## Project documentation
 
-The `docs/` folder contains working documentation for maintaining and developing the website, including:
+The `docs/` folder contains:
 
-- `PROJECT_MANUAL.md`
-- `CHANGELOG.md`
-- `ROADMAP.md`
+- `PROJECT_MANUAL.md` — architecture and maintenance conventions
+- `CHANGELOG.md` — completed release changes
+- `ROADMAP.md` — planned future work
 
-Additional maintenance and citation documentation can be added there as the website develops.
-
-The `docs/` folder is excluded from the generated public website via `_config.yml`.
+The `docs/` folder is excluded from the public Jekyll build.
 
 ## Publishing with GitHub Pages
 
-The repository is configured to deploy from the `main` branch and repository root.
+The site deploys from the `main` branch and repository root.
 
-In GitHub:
+GitHub Pages rebuilds after committed changes.
 
-1. Open **Settings → Pages**.
-2. Under **Build and deployment**, choose **Deploy from a branch**.
-3. Select `main`.
-4. Select `/ (root)`.
-5. Save.
-
-GitHub Pages will rebuild the website after changes are committed.
-
-## Local preview
-
-With Ruby and Bundler installed:
+For a local preview, with Ruby and Bundler installed:
 
 ```bash
 bundle install
@@ -164,18 +188,12 @@ bundle exec jekyll serve
 
 Then open:
 
-http://localhost:4000/PhenoChange/
+http://localhost:4000/
 
-## Versioning
+## Known current limitation
 
-Major website changes should be recorded in:
-
-`docs/CHANGELOG.md`
-
-Planned work and outstanding priorities should be maintained in:
-
-`docs/ROADMAP.md`
+The camera schematic appears below the map rather than directly on it. Moving the schematic expansion onto the map is recorded as a future improvement in `docs/ROADMAP.md`.
 
 ## Licensing
 
-The repository currently includes an MIT licence for the website software. Scientific photographs, logos, documents, data and other third-party or project materials may have separate ownership or licensing conditions and should not automatically be assumed to be covered by the software licence.
+The repository includes an MIT licence for website software. Scientific photographs, logos, documents, data and other project or third-party materials may have separate ownership or licensing conditions and should not automatically be assumed to be covered by the software licence.
