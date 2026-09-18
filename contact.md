@@ -6,7 +6,7 @@ permalink: /contact/
 
 # Contact
 
-For enquiries about the PhenoChange network, collaborations, field sites, data access or establishing new monitoring sites, please contact the network coordinators.
+For enquiries about the PhenoChange network, collaborations, field sites, data access or establishing new monitoring sites, please contact one of the network coordinators.
 
 ---
 
@@ -20,7 +20,7 @@ For enquiries about the PhenoChange network, collaborations, field sites, data a
 
 ### Desirée Ramos
 
-Vale S.A., Brazil
+Instituto Tecnológico Vale (ITV), Brazil
 
 <a class="button" href="https://scholar.google.com/citations?user=-O9_YJUAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
 
@@ -62,4 +62,4 @@ University of Turin, Italy
 
 ## General enquiries
 
-Researchers interested in collaborating with the PhenoChange network, establishing new monitoring sites or accessing PhenoChange data are encouraged to contact the three coordinators above.
+Researchers interested in collaborating with the PhenoChange network, establishing new monitoring sites or accessing PhenoChange data are encouraged to contact any of the three coordinators above.

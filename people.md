@@ -22,7 +22,7 @@ PhenoChange brings together researchers from Africa, South America and Europe to
 
 **Coordinator**
 
-Vale S.A., Brazil
+Instituto Tecnológico Vale (ITV), Brazil
 
 <a class="button" href="https://scholar.google.com/citations?user=-O9_YJUAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
 
@@ -82,7 +82,7 @@ ISCED–Huíla, Angola
 
 ### Vera de Cauwer
 
-Namibia University of Science and Technology
+Biodiversity Research Centre, Namibia University of Science and Technology
 
 <a class="button" href="https://www.researchgate.net/profile/Vera-De-Cauwer" target="_blank" rel="noopener">ResearchGate</a>
 
