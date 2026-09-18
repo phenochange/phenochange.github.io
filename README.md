@@ -10,15 +10,27 @@ The site is hosted from the GitHub organisation repository:
 
 `phenochange/phenochange.github.io`
 
-Because this is an organisation/user Pages repository, the site is served from the domain root. Jekyll therefore uses `baseurl: ""`.
+Because this is an organisation Pages repository, the website is served from the domain root and Jekyll uses `baseurl: ""`.
 
-## Current version
+## Current website
 
-**Version 5.1**
+The current website includes:
 
-Version 5.1 includes the interactive nine-site network map, active-camera information, sortable site metadata, WorldClim climate summaries, updated imagery, publications, protocols, people and partner institutions.
+- Home
+- About
+- People
+- Partner Institutions
+- Publications
+- Data
+- Protocols
+- Contact
+- an interactive nine-site network map
+- active-camera information
+- sortable site metadata
+- WorldClim climate summaries
+- downloadable field-camera protocol
 
-See `docs/CHANGELOG.md` for release details and `docs/ROADMAP.md` for planned improvements.
+See `docs/CHANGELOG.md` for completed changes and `docs/ROADMAP.md` for planned improvements.
 
 ## Repository structure
 
@@ -50,15 +62,16 @@ Supporting files:
 - `assets/images/` — photographs and logos
 - `docs/` — maintenance documentation
 
-The website intentionally keeps People, Partner Institutions and Publications directly in their Markdown pages. The older separate YAML data files for those pages are no longer used.
+People, Partner Institutions and Publications are maintained directly in their Markdown pages. Separate YAML data files for those pages are no longer used.
 
 ## Editing content
 
 Most routine changes require editing only the relevant root-level Markdown file.
 
 Examples:
+
 - About text → `about.md`
-- People → `people.md`
+- People and affiliations → `people.md`
 - Partner institutions → `institutions.md`
 - Publications → `publications.md`
 - Data-page text → `data.md`
@@ -66,6 +79,30 @@ Examples:
 - Navigation → `_data/navigation.yml`
 - Footer/funding → `_includes/footer.html`
 - Styling → `assets/css/style.css`
+
+## Partner institutions and affiliations
+
+Partner institutions are maintained directly in `institutions.md`.
+
+Current institutional naming includes:
+
+- **Instituto Tecnológico Vale (ITV)**, Belém, PA, Brazil
+- **Biodiversity Research Centre, Namibia University of Science and Technology**, Namibia
+- **Ongava Research Centre**, Namibia
+
+The ITV logo is stored as:
+
+`assets/images/logos/itv-share.png`
+
+The Biodiversity Research Centre logo is stored as:
+
+`assets/images/logos/NUST_BRC.png`
+
+Ongava Research Centre links to:
+
+https://orc.eco/
+
+People affiliations should remain consistent with the institution names used on the Partner Institutions page. Desirée Ramos is affiliated with Instituto Tecnológico Vale (ITV), Brazil.
 
 ## Data and map
 
@@ -81,9 +118,9 @@ through:
 
 Update the CSV rather than hard-coding table values in `data.md`.
 
-The site coordinates represent mean latitude and longitude for cameras with `Status = ON`.
+Site coordinates represent mean latitude and longitude for cameras with `Status = ON`.
 
-MAT and MAP currently use WorldClim v2.1 BIO1 and BIO12 (1970–2000, 2.5 arc-minute resolution).
+MAT and MAP use WorldClim v2.1 BIO1 and BIO12 (1970–2000 climatology; 2.5 arc-minute resolution).
 
 ### Active cameras
 
@@ -95,18 +132,35 @@ through:
 
 `assets/js/network_map.js`
 
-The camera CSV should contain only cameras with `Status = ON`.
+The camera CSV contains cameras with `Status = ON`.
 
 The map currently shows the nine core PhenoChange sites. Selecting a site displays a schematic radial diagram of its active cameras beneath the map.
 
 ### Map sources
 
 The Data-page map uses:
-- NASA Blue Marble Next Generation as the global raster background;
-- Natural Earth country boundaries;
-- Leaflet for interaction.
+
+- NASA Blue Marble Next Generation as the global raster background
+- Natural Earth country boundaries
+- Leaflet for interaction
 
 Keep the map attribution on the Data page when modifying the map.
+
+## Homepage
+
+The homepage is organised to move from the biological motivation to observations, methods, disturbance, geographic coverage and people:
+
+1. Watching seasonal change
+2. The power of repeat photography
+3. From field cameras to phenological insight
+4. Capturing rapid environmental change as it happens
+5. A growing monitoring network across Africa and South America
+6. The people behind PhenoChange
+7. Funding
+
+The homepage uses a reduced-width PhenoChange logo panel in the hero. The overriding rule is currently appended near the bottom of `assets/css/style.css`.
+
+The homepage does not contain the obsolete static network map. Visitors are directed to the interactive map on the Data page.
 
 ## Images
 
@@ -121,11 +175,12 @@ Image folders include:
 - `assets/images/logos/`
 
 Recommended conventions:
-- lowercase filenames;
-- underscores instead of spaces;
-- avoid accented characters;
-- `.jpg` for photographs where practical;
-- `.png`/`.svg` for logos where appropriate.
+
+- lowercase filenames where practical
+- underscores instead of spaces
+- avoid accented characters in filenames
+- `.jpg` for photographs where practical
+- `.png` or `.svg` for logos where appropriate
 
 Use Jekyll's `relative_url` filter for internal paths where possible.
 
@@ -134,15 +189,17 @@ Use Jekyll's `relative_url` filter for internal paths where possible.
 Add the new publication near the top of `publications.md`.
 
 Include:
-- exact title;
-- complete author list;
-- journal;
-- year;
-- article/DOI link.
+
+- exact title
+- complete author list
+- journal
+- year
+- article/DOI link
 
 ## Adding a person
 
 Add the person directly to the appropriate section of `people.md`:
+
 - Coordinators
 - Site Leaders
 - PhenoChange Collaborators
@@ -168,16 +225,30 @@ Current field-camera protocol:
 The `docs/` folder contains:
 
 - `PROJECT_MANUAL.md` — architecture and maintenance conventions
-- `CHANGELOG.md` — completed release changes
+- `CHANGELOG.md` — completed changes
 - `ROADMAP.md` — planned future work
 
 The `docs/` folder is excluded from the public Jekyll build.
 
 ## Publishing with GitHub Pages
 
-The site deploys from the `main` branch and repository root.
+The production site is hosted from:
 
-GitHub Pages rebuilds after committed changes.
+`phenochange/phenochange.github.io`
+
+and published at:
+
+https://phenochange.github.io/
+
+For this organisation Pages repository, `_config.yml` should contain:
+
+```yaml
+url: "https://phenochange.github.io"
+baseurl: ""
+repository: phenochange/phenochange.github.io
+```
+
+GitHub Pages rebuilds after committed changes to the publishing branch.
 
 For a local preview, with Ruby and Bundler installed:
 
@@ -192,7 +263,7 @@ http://localhost:4000/
 
 ## Known current limitation
 
-The camera schematic appears below the map rather than directly on it. Moving the schematic expansion onto the map is recorded as a future improvement in `docs/ROADMAP.md`.
+The camera schematic appears below the map rather than directly on it. Moving the schematic expansion onto the map remains a possible future improvement in `docs/ROADMAP.md`.
 
 ## Licensing
 
