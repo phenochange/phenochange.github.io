@@ -15,7 +15,6 @@ PhenoChange is built on collaborations among universities, research institutes, 
 <div class="institution-card" markdown="1">
 
 ![University of Turin]({{ '/assets/images/logos/universita-di-torino-logo-png_seeklogo-490751.png' | relative_url }})
-
 ### University of Turin
 
 Italy
@@ -27,7 +26,6 @@ Italy
 <div class="institution-card" markdown="1">
 
 ![UNESP]({{ '/assets/images/logos/Logo_Unesp.svg' | relative_url }})
-
 ### Universidade Estadual Paulista (UNESP)
 
 Brazil
@@ -38,13 +36,12 @@ Brazil
 
 <div class="institution-card" markdown="1">
 
-![Vale]({{ '/assets/images/logos/Vale_logo.svg.webp' | relative_url }})
+![Instituto Tecnológico Vale]({{ '/assets/images/logos/itv-share.png' | relative_url }})
+### Instituto Tecnológico Vale (ITV)
 
-### Vale S.A.
+Belém, PA, Brazil
 
-Brazil
-
-<a class="button" href="https://vale.com/" target="_blank" rel="noopener">Visit website</a>
+<a class="button" href="https://www.itv.org/" target="_blank" rel="noopener">Visit website</a>
 
 </div>
 
@@ -63,7 +60,6 @@ Brazil
 <div class="institution-card" markdown="1">
 
 ![ISCED-Huíla]({{ '/assets/images/logos/images.jpeg' | relative_url }})
-
 ### ISCED–Huíla
 
 Angola
@@ -74,32 +70,29 @@ Angola
 
 <div class="institution-card" markdown="1">
 
-![Namibia University of Science and Technology]({{ '/assets/images/logos/blue-co-branded_NUST_Registered_logos.png' | relative_url }})
-
-### Namibia University of Science and Technology
+![Biodiversity Research Centre, Namibia University of Science and Technology]({{ '/assets/images/logos/NUST_BRC.png' | relative_url }})
+### Biodiversity Research Centre, Namibia University of Science and Technology
 
 Namibia
 
-<a class="button" href="https://www.nust.na/" target="_blank" rel="noopener">Visit website</a>
+<a class="button" href="https://brc.nust.na/" target="_blank" rel="noopener">Visit website</a>
 
 </div>
 
 <div class="institution-card" markdown="1">
 
 ![Ongava Research Centre]({{ '/assets/images/logos/ongava.png' | relative_url }})
-
 ### Ongava Research Centre
 
 Namibia
 
-<a class="button" href="https://www.ongava.com/research" target="_blank" rel="noopener">Visit website</a>
+<a class="button" href="https://orc.eco/" target="_blank" rel="noopener">Visit website</a>
 
 </div>
 
 <div class="institution-card" markdown="1">
 
 ![Universidade de Brasília]({{ '/assets/images/logos/UnB.png' | relative_url }})
-
 ### Universidade de Brasília
 
 Brazil
@@ -111,7 +104,6 @@ Brazil
 <div class="institution-card" markdown="1">
 
 ![Universidade Federal do Ceará]({{ '/assets/images/logos/ceara_logo.png' | relative_url }})
-
 ### Universidade Federal do Ceará
 
 Brazil
@@ -123,7 +115,6 @@ Brazil
 <div class="institution-card" markdown="1">
 
 ![Universidade Mandume Ya Ndemufayo]({{ '/assets/images/logos/images_UMN.jpeg' | relative_url }})
-
 ### Universidade Mandume Ya Ndemufayo
 
 Angola
@@ -135,7 +126,6 @@ Angola
 <div class="institution-card" markdown="1">
 
 ![Université de Lubumbashi]({{ '/assets/images/logos/LOGO_UNILU.png' | relative_url }})
-
 ### Université de Lubumbashi
 
 Democratic Republic of Congo
@@ -147,7 +137,6 @@ Democratic Republic of Congo
 <div class="institution-card" markdown="1">
 
 ![UNIMONTES]({{ '/assets/images/logos/unimontes-logo-png_seeklogo-199058.png' | relative_url }})
-
 ### Universidade Estadual de Montes Claros (UNIMONTES)
 
 Brazil
