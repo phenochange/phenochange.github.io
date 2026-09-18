@@ -17,6 +17,7 @@ permalink: /
     </div>
   </div>
 </section>
+
 <section class="intro-section section">
   <div class="shell two-column">
     <div>
@@ -30,18 +31,17 @@ permalink: /
   </div>
 </section>
 
-<section class="section muted-section">
-  <div class="shell">
-    <div class="section-heading map-heading">
-      <div>
-        <p class="eyebrow">An international network</p>
-        <h2>A growing monitoring network across Africa and South America</h2>
-      </div>
-      <div>
-        <p>Coordinated camera observations across Africa and South America allow direct comparison of vegetation dynamics along major environmental gradients.</p>
-        <a class="button" href="{{ '/data/' | relative_url }}">Explore the network map</a>
-      </div>
+<section class="section seasonal-comparison-section">
+  <div class="shell seasonal-comparison-grid">
+    <div>
+      <p class="eyebrow">Seasonal change in view</p>
+      <h2>The power of repeat photography</h2>
+      <p>The same field of view can reveal dramatic seasonal changes in vegetation. These images from Ongava Research Centre, Namibia, show semi-arid savanna during the dry and wet seasons.</p>
     </div>
+    <figure class="seasonal-comparison-figure">
+      <img src="{{ '/assets/images/home/orc_namibia.jpg' | relative_url }}" alt="Dry- and wet-season views from the same PhenoChange camera at Ongava Research Centre, Namibia">
+      <figcaption>Dry- and wet-season views from the same monitoring location at Ongava Research Centre, Namibia.</figcaption>
+    </figure>
   </div>
 </section>
 
@@ -83,20 +83,6 @@ permalink: /
   </div>
 </section>
 
-<section class="section seasonal-comparison-section">
-  <div class="shell seasonal-comparison-grid">
-    <div>
-      <p class="eyebrow">Seasonal change in view</p>
-      <h2>The power of repeat photography</h2>
-      <p>The same field of view can reveal dramatic seasonal changes in vegetation. These images from Ongava Research Centre, Namibia, show semi-arid savanna during the dry and wet seasons.</p>
-    </div>
-    <figure class="seasonal-comparison-figure">
-      <img src="{{ '/assets/images/home/orc_namibia.jpg' | relative_url }}" alt="Dry- and wet-season views from the same PhenoChange camera at Ongava Research Centre, Namibia">
-      <figcaption>Dry- and wet-season views from the same monitoring location at Ongava Research Centre, Namibia.</figcaption>
-    </figure>
-  </div>
-</section>
-
 <section class="section disturbance-section">
   <div class="shell disturbance-grid">
     <div class="disturbance-copy">
@@ -112,14 +98,29 @@ permalink: /
   </div>
 </section>
 
+<section class="section muted-section">
+  <div class="shell">
+    <div class="section-heading map-heading">
+      <div>
+        <p class="eyebrow">Network coverage</p>
+        <h2>A growing monitoring network across Africa and South America</h2>
+      </div>
+      <div>
+        <p>PhenoChange links monitoring sites across two continents, spanning contrasting climates and vegetation types and enabling coordinated comparisons of seasonal vegetation dynamics.</p>
+        <a class="button" href="{{ '/data/' | relative_url }}">Explore the network map</a>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="section team-preview-section">
   <div class="shell">
     <div class="section-heading">
       <div>
-        <p class="eyebrow">People</p>
-        <h2>An international network of researchers</h2>
+        <p class="eyebrow">Collaboration</p>
+        <h2>The people behind PhenoChange</h2>
       </div>
-      <p>PhenoChange brings together researchers and site teams across Africa, South America and Europe.</p>
+      <p>Researchers, site leaders and collaborators contribute local expertise and long-term field knowledge from across Africa, South America and Europe.</p>
     </div>
 
     <div class="team-preview-grid">
@@ -152,10 +153,9 @@ permalink: /
       </div>
       <p>PhenoChange is supported by NERC and FAPESP, with significant support from the NERC-funded SECO Project.</p>
     </div>
-
     <div class="funder-grid">
       <div class="funder-card">
-        <img src="{{ '/assets/images/logos/Natural_Environment_Research_Council_logo.svg.webp' | relative_url }}" alt="Natural Environment Research Council (NERC) logo">
+        <img src="{{ '/assets/images/logos/nerc.webp' | relative_url }}" alt="Natural Environment Research Council (NERC) logo">
         <p>NE/X002993/1 and SECO Project NE/T01279X/1</p>
       </div>
       <div class="funder-card">
