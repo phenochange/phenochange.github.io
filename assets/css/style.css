@@ -450,3 +450,14 @@ body{font-size:17px}.site-header{box-shadow:0 4px 22px rgba(36,49,38,.05)}
   .camera-network-svg { min-height:420px; }
   .camera-nodes text { font-size:11px; }
 }
+
+/* Homepage logo panel refinement */
+.hero-logo-panel{
+  width:min(580px,74vw);
+}
+
+@media(max-width:620px){
+  .hero-logo-panel{
+    width:88%;
+  }
+}
