@@ -2,6 +2,40 @@
 
 Major changes to the PhenoChange website are recorded here.
 
+## September 2026 — institutional and homepage updates
+
+### Partner institutions
+- Replaced the generic Vale S.A. entry with **Instituto Tecnológico Vale (ITV)**, Belém, PA, Brazil.
+- Added the ITV logo `assets/images/logos/itv-share.png`.
+- Replaced the generic Namibia University of Science and Technology entry with **Biodiversity Research Centre, Namibia University of Science and Technology**.
+- Added the Biodiversity Research Centre logo `assets/images/logos/NUST_BRC.png`.
+- Updated the Ongava Research Centre website to `https://orc.eco/`.
+
+### People and Contact
+- Updated Desirée Ramos's affiliation to **Instituto Tecnológico Vale (ITV), Brazil** on the People and Contact pages.
+- Updated Vera de Cauwer's affiliation to **Biodiversity Research Centre, Namibia University of Science and Technology** for consistency with the Partner Institutions page.
+
+### Homepage
+- Reduced the width of the PhenoChange logo panel in the homepage hero.
+- Reordered the principal homepage sections to improve the narrative flow:
+  1. Watching seasonal change
+  2. The power of repeat photography
+  3. From field cameras to phenological insight
+  4. Capturing rapid environmental change as it happens
+  5. A growing monitoring network across Africa and South America
+  6. The people behind PhenoChange
+  7. Funding
+- Revised the geographic-network and people sections to distinguish network coverage from research collaboration.
+- Retained the Data page as the location of the interactive network map rather than restoring an obsolete static map to the homepage.
+
+## Organisation hosting migration — August 2026
+
+- Moved the production GitHub Pages site from the personal project site `kyledexter.github.io/PhenoChange/` to the PhenoChange organisation site `https://phenochange.github.io/`.
+- Changed `_config.yml` from a project-site base URL to an organisation-site root configuration.
+- Updated the repository identifier to `phenochange/phenochange.github.io`.
+- Updated maintenance documentation and local-preview instructions.
+- Public page Markdown files did not require wholesale link rewriting because internal links use Jekyll's `relative_url` filter.
+
 ## Version 5.1 — August 2026
 
 ### Data and network map
